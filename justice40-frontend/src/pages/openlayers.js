@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Seo from '../components/seo';
 import GeoJSON from 'ol/format/GeoJSON'
 import OlMapWrapper from '../components/ol-map-wrapper'
 import geojson from "../data/maryland.json";
@@ -24,7 +24,7 @@ const OpenLayersPage = () => {
     return (
       <>
       <Layout>
-        <SEO title="OpenLayers" />
+        <Seo title="OpenLayers" />
         <h1 className="margin-left-9">OpenLayers</h1>
         
         <OlMapWrapper features={features} />
@@ -36,4 +36,3 @@ const OpenLayersPage = () => {
   }
   
   export default OpenLayersPage
-  

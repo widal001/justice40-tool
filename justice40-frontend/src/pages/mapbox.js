@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useCallback, useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import Layout from '../components/layout';
 import ReactMapGL, {Layer, Source} from 'react-map-gl';
 import * as mapboxStyles from "./mapbox.module.css";

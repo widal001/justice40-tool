@@ -85,12 +85,12 @@ function OlMapWrapper(props) {
 
     }
 
-  },[props.features])
+  },[props.features, map, featuresLayer])
 
-  return (     
+  return (
       <div className="map-wrapper">
-          <div ref={mapElement} id="ol-map" className="map-container"></div>
-      </div> 
+          <div ref={mapElement} id="ol-map" className="map-container" />
+      </div>
   ) 
 
 }
