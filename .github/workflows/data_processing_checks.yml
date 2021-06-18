@@ -22,7 +22,7 @@ jobs:
           poetry install
       - name: Run tox
         run: |
-        poetry run tox
+          poetry run tox
 
   data-roadmap:
     runs-on: ubuntu-latest
