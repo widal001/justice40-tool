@@ -21,7 +21,8 @@ jobs:
           cd data-pipeline
           poetry install
       - name: Run tox
-        run: poetry run tox
+        run: |
+        poetry run tox
 
   data-roadmap:
     runs-on: ubuntu-latest

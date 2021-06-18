@@ -60,7 +60,7 @@ authors = ["CEJST Development Team"]
 license = "CC0 1.0 Universal"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.7,<4.0"
 pip = "^21.1.2"
 
 [tool.poetry.dev-dependencies]
