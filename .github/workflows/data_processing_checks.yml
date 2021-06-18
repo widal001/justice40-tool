@@ -22,6 +22,7 @@ jobs:
           poetry install
       - name: Run tox
         run: |
+          cd data-pipeline
           poetry run tox
 
   data-roadmap:
