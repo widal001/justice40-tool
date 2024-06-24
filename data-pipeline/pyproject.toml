@@ -51,3 +51,30 @@ authorized_licenses = [
 disable = [
   "C0114"
 ]
+
+[tool.poetry]
+name = "data-pipeline"
+version = "0.1.0"
+description = "Data processing scripts for justice40"
+authors = ["CEJST Development Team"]
+license = "CC0 1.0 Universal"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+pip = "^21.1.2"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+flake8 = "^3.9.2"
+pylint = "^2.8.3"
+tox = "^3.23.1"
+pytest = "^6.2.4"
+safety = "^1.10.3"
+liccheck = "^0.6.0"
+pytest-cov = "^2.12.1"
+pre-commit = "^2.13.0"
+pip = "^21.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
